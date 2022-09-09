@@ -51,9 +51,9 @@
 
     <form action="" method="POST">
         <label for="numbera">Nhập a:</label>
-        <input type="text" id="numbera" name="numbera" value="<?php $a = $_POST["numbera"]; echo $a; ?>">
+        <input type="text" id="numbera" name="numbera" >
         <label for="numberb">Nhap b:</label>
-        <input type="text" id="numberb" name="numberb" value="<?php $b = $_POST["numberb"]; echo $b; ?>">
+        <input type="text" id="numberb" name="numberb">
         <label for="ketqua">Kết quả:</label>
         <input type="text" id="ketqua" name="ketqua" disabled 
         value="<?php
